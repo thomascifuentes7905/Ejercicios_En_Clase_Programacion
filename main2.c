@@ -2,12 +2,12 @@
 int main()
 {
     char vocales[] = {'a','e','i','o','u',};
-     int *ptr;
+    char *ptr;
 
     ptr = &vocales[0];
-    for (char i=0; i< 5; i++)
+    for (int i=0; i< 5; i++)
     {
-        printf("%c", vocales[i]);
+        printf("%c",vocales[i]);
         printf("%c\n", *(ptr+i));
         }
 }
