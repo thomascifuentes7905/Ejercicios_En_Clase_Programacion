@@ -10,6 +10,6 @@ int main()
 
         printf("arreglo[%d] = %d\t",i, arreglo[i]);
         //ptr = &arreglo[i];
-        printf("%d\n", *(ptr++));
+        printf("%d\n", *(++ptr));
     }
 }
